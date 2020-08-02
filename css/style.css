@@ -95,4 +95,7 @@ body {
         font-weight: none;
         text-shadow: 1px 2px #ffffff;
     }
+    #wrapper p {
+        font-size: none;
+    }
 }
