@@ -2,6 +2,7 @@
     height: 70px;
     background-color: #003399;
     border-bottom: 1px solid #CCFFCC;
+    overflow: hidden;
 }
 
 .navbar a {
