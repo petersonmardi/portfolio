@@ -53,7 +53,7 @@ body {
 
 @media only screen and (max-width:800px) {
     .navbar {
-        display: flexbox;
+        display: inline-block;
     }
     #wrapper {
         margin: 0;
@@ -61,5 +61,30 @@ body {
         width: 100%;
 
         font-size: none;
+    }
+    #wrapper:first-line {
+        color: #000000;
+        font-size: 28px;
+        font-weight: none;
+        text-shadow: 1px 2px #ffffff;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .navbar {
+        display: inline-block;
+    }
+    #wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        font-size: none;
+    }
+    #wrapper:first-line {
+        color: #000000;
+        font-size: 28px;
+        font-weight: none;
+        text-shadow: 1px 2px #ffffff;
     }
 }
