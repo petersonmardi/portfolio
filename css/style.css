@@ -1,94 +1,70 @@
 body {
-    background-color:  #66CCFF;
+    background-color: #74C2E1;
     margin: 0;
     padding: 0;
 
-    background-image: linear-gradient( #0099CC,  #66CCFF, #003399 );
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../image/josh-withers-7pBNivIb6E8-unsplash.jpg);
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.navbar {
-    height: 70px;
-    background-color: #003399;
-    border-bottom: 1px solid #CCFFCC;
-    overflow: hidden;
+.header {
+    background-color: #0191C8;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 5px 13px 20px #005B9A;
 }
 
-.navbar a {
-    float: right;
-    padding: 26px;
-    color:  #ffffff;
+.header a {
     text-decoration: none;
+    margin: 10px;
+    color: #ffffff;
     text-transform: uppercase;
 }
-.navbar a:hover {
-    background-color: #CCFFCC;
-    color: #003399;
+
+.header a:hover {
+    color: #c0c0c0;
+    /* text-decoration: underline #005B9A; */
 }
 
-.navbar a.active {
-    background-color: #CCFFCC;
-    color: #003399;
+#container {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#wrapper {
+#container main {
+    width: inherit;
+    margin-top: 150px;
+    margin-left: inherit;
+    margin-right: inherit;
     text-align: center;
-    margin-top: 200px;
+    /* background-color: #c0c0c06c; */
+    border-radius: 8px;
+    padding: 8px;
 }
 
-#wrapper:first-line {
-    color: #000000;
-    font-size: 78px;
-    font-weight: 400;
-    text-shadow: 1px 2px #ffffff;
+#container main:hover {
+    border: 1px solid #ffffff;
+    box-shadow: #005B9A 5px 5px 5px;
 }
 
-#wrapper p {
-    font-size: 19px;
-    color: #000000;
-    text-shadow: 1px 1px #ffffff;
+#container main .peterson {
+    font-size: 70px;
+    color: #ffffff;
+    text-shadow: 5px 1px 5px #0191C8;
 }
 
-@media only screen and (max-width:800px) {
-    .navbar {
-        display: inline-block;
-    }
-    #wrapper {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-
-        font-size: none;
-    }
-    #wrapper:first-line {
-        color: #000000;
-        font-size: 28px;
-        font-weight: none;
-        text-shadow: 1px 2px #ffffff;
-    }
-}
-
-@media only screen and (max-width:500px) {
-    .navbar {
-        display: inline-block;
-    }
-    #wrapper {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-
-        font-size: none;
-    }
-    #wrapper:first-line {
-        color: #000000;
-        font-size: 28px;
-        font-weight: none;
-        text-shadow: 1px 2px #ffffff;
-    }
-    #wrapper p {
-        font-size: none;
-    }
+.two, .three {
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #0191c8;
 }
