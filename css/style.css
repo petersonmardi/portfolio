@@ -68,3 +68,21 @@ body {
     color: #ffffff;
     text-shadow: 5px 5px 5px #0191c8;
 }
+
+@media only screen and (max-width:500px) {
+    #container {
+        width: 80%;
+    }
+    .header {
+        width: 30%;
+        background-color: initial;
+        border-radius: 5px;
+    }
+    .header a {
+        display: block;
+        padding-top: 15px;
+    }
+    #container main .peterson {
+        font-size: 48px;
+    }
+}
