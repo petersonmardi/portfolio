@@ -61,6 +61,7 @@ body {
     font-size: 70px;
     color: #ffffff;
     text-shadow: 5px 1px 5px #0191C8;
+    font-family: 'Lobster', cursive;
 }
 
 .two, .three {
@@ -84,5 +85,9 @@ body {
     }
     #container main .peterson {
         font-size: 32px;
+        text-transform: uppercase;
+    }
+    .three {
+        color: #c0c0c0;
     }
 }
