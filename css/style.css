@@ -89,7 +89,7 @@ body {
     .header a {
         display: block;
         padding-top: 15px;
-        border-bottom: #005B9A 4px solid;
+        border-bottom: #005B9A 1px solid;
     }
     #container main .peterson {
         font-size: 32px;
