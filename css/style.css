@@ -33,7 +33,6 @@ body {
 
 .header a:hover {
     color: #c0c0c0;
-    /* text-decoration: underline #005B9A; */
 }
 
 #container {
@@ -41,6 +40,7 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 #container main {
@@ -49,7 +49,6 @@ body {
     margin-left: inherit;
     margin-right: inherit;
     text-align: center;
-    /* background-color: #c0c0c06c; */
     border-radius: 8px;
     padding: 8px;
 }
