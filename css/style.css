@@ -82,6 +82,9 @@ body {
     #container {
         width: 80%;
     }
+    #container main {
+        margin-top: 50px;
+    }
     .header {
         width: 30%;
         background-color: initial;
