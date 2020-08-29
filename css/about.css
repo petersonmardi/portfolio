@@ -24,9 +24,12 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
+    text-shadow: 1px 1px 1px #c0c0c0;
 }
 .header a:hover {
     color: #005b9a;
+    text-decoration: underline #005b9a;
+    text-shadow: initial;
 }
 .container {
     width: 80%;

@@ -25,6 +25,8 @@ body {
 
 .link:hover {
     color: #005b9a;
+    text-decoration: #005b9a underline;
+    text-shadow: initial;
 }
 
 .container a {
