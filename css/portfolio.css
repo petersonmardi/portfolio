@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #74c2e1;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: initial;
+    text-shadow: 1px 1px 1px #c0c0c0;
+
+    background: linear-gradient(#74c2e1, #c0c0c0, #0191c8);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+#header {
+    text-align: center;
+    padding: 10px;
+}
+#header a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#header a:hover {
+    color: #005b9a;
+    text-shadow: initial;
+    text-decoration: underline;
+}
+
+#spreadcoffee, #other1 {
+    float: left;
+    width: 33.33%;
+}
+#other2 {
+    float: right;
+    width: 33.33%;
+}
+
+#other1 {
+    text-align: center;
+}
+
+#other2 {
+    text-align: center;
+}
+
+#spreadcoffee {
+    text-align: center;
+}
+#first-part {
+    background-color: #0191c8;
+    height: 250px;
+    border: #005b9a solid 1px;
+    width: 80%;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+main {
+    padding: 10px;
+}
+
+main #spreadcoffee p{
+    font-size: 16px;
+}
+
+main #spreadcoffee a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main #spreadcoffee a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#spreadcoffee, #other1, #other2 {
+    height: 240px;
+}
+
+/* jquery practice */
+
+#page {
+    margin: 15px;
+    border: #ffffff solid 1.5px;
+    padding-left: 10px;
+    width: 310px;
+    background-color: #0191c8;
+}
+.hot {
+    background-color:#c0c0c0;
+    width: 250px;
+    padding: 10px;
+}
+#four {
+    background-color: #74c2e1;
+    width: 250px;
+    padding: 10px;
+}
+#page h1, #page h2 {
+    color: #ffffff;
+}
+
+.complete {
+    color: black;
+}
+.headline {
+    color: #005b9a;
+}
+
+ul li {
+    list-style: none;
+}
+
+#group {
+    border: #ffffff 1.5px solid;
+    width: 252px;
+    padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    #spreadcoffee, #other1, #other2 {
+        width: 100%;
+    }
+}

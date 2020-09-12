@@ -41,6 +41,14 @@ body {
     height: 500px;
     
 }
+main {
+    background-color: #c0c0c07a;
+    padding: 10px;
+    border: #cfcfcf4d 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
 
 #left, #center {
     float: left;
@@ -48,9 +56,11 @@ body {
     text-align: center;
 }
 
+
 #right {
     float: right;
     width: 33.33%;
+    text-align: center;
 }
 
 #left h3, #center h3, #right h3, main h2 {
@@ -61,5 +71,10 @@ body {
 @media only screen and (max-width:500px) {
     body {
         font-size: initial;
+    }
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }

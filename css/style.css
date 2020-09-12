@@ -33,7 +33,7 @@ body {
 
 .header a:hover {
     color: #c0c0c0;
-    text-decoration: underline #ffffff;
+    text-decoration: underline;
 }
 
 #container {
@@ -54,11 +54,6 @@ body {
     padding: 8px;
 }
 
-#container main:hover {
-    border: 1px solid #ffffff;
-    box-shadow: #005B9A 5px 5px 5px;
-}
-
 #container main .peterson {
     font-size: 70px;
     color: #ffffff;
@@ -70,12 +65,6 @@ body {
     font-size: 18px;
     color: #ffffff;
     text-shadow: 5px 5px 5px #0191c8;
-}
-.three {
-    color: #005B9A;
-    background-color: #c0c0c0;
-    border-radius: 5px;
-    text-shadow: initial;
 }
 
 @media only screen and (max-width:500px) {
